@@ -31,7 +31,7 @@
                       <li>
                         <figure>
                           <a class="aa-product-img" href="product_details.php?id=<?php echo $item['ID']?>?cate=<?php echo $item['CategoryID'];?>"><img src="<?php echo base_url() ?>/Public/Frontend/img/<?php echo $item['Image']; ?>" alt="polo shirt img"></a>
-                          <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
+                          <a class="aa-add-card-btn"href="addcart.php?id=<?php echo $item["ID"]?>"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                            <figcaption>
                             <h4 class="aa-product-title"><a href="#"><?php echo $item['Name'] ?></a></h4>
                             <span class="aa-product-price">$<?php $reduce  = $item['Price']/$item['PromotionPrice']; echo round($reduce,0) ; ?></span><span class="aa-product-price"><del>$<?php echo $item['Price'] ?></del></span>
@@ -50,7 +50,7 @@
 
 
                   </ul>
-                  <a class="aa-browse-btn" href="#">Browse all Product <span class="fa fa-long-arrow-right"></span></a>
+                  
                 </div>
                 <!-- / popular product category -->
 

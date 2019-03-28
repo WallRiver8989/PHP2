@@ -60,7 +60,7 @@
             </li>
 
             <li class="nav-item">
-               <a class="nav-link" href="tables.html">
+               <a class="nav-link" href="<?php echo modules("orders") ?>">
                <i class="fas fa-fw fa-clipboard-check"></i>
                <span>Quản lý đơn hàng</span></a>
             </li>

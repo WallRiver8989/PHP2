@@ -102,7 +102,7 @@
     {
 
         // return $url  = "http://codedoan.com/";
-        return $url  = "http://localhost:8989/PHP/PHP";
+        return $url  = "http://localhost/PHP2";
     }
 
 
@@ -160,5 +160,9 @@
         }
     }
 
+    function formatPrice($number){
+        $number = intval($number);
+        return $number = number_format($number,0,',','.')."$";
+    }
 
  ?>

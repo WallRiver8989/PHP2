@@ -5,5 +5,5 @@
     $db = new Database;
 
 
-    define("ROOT", $_SERVER['DOCUMENT_ROOT'] ."/PHP/Public/uploads/");
+    define("ROOT", $_SERVER['DOCUMENT_ROOT'] ."/PHP2/Public/uploads/");
 ?>
